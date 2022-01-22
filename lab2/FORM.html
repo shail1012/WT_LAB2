@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Feedback form</title>
+</head>
+<center>
+
+    <body>
+        <h1>STUDENT FEEDBACK FORM</h1><br><br>
+        <form action="backened.php">
+
+            <div>
+                <label for="name">Name</label>:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="text" id="name" name="myname">
+            </div>
+            <br>
+            <div>
+                Id Number :&emsp;&emsp;&emsp;&emsp;<input type="text" name="idnumber">
+            </div>
+            <br>
+            <div>
+                Email Id :&emsp;&emsp;&emsp;&emsp;&emsp;<input type="email" name="myemail">
+            </div>
+            <br>
+            <div>
+                Contact Number :&emsp;&emsp;<input type="number" name="mynumber">
+            </div>
+            <br>
+            <div>
+                Gender :&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="radio" name="mygender">Male <input type="radio" name="mygender">FeMale
+            </div>
+            <br>
+            <div>
+                Name of this insitute: <input type="radio" name="department">CSPIT <input type="radio" name="department">DEPSTAR
+            </div>
+            <br>
+            <div>
+                Graduate:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Yes<input type="checkbox" name="mygraduation">
+            </div>
+            <div>
+                <p>&nbsp;How did you find the content of the sesson?</p>
+                <input type="radio" name="content">Excellent <input type="radio" name="content">Very Good <input
+                    type="radio" name="content">Good <input type="radio" name="content">Fair
+            </div>
+            <br>
+            <div>
+                Suggestion: <br><textarea name="enter your feedback" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Submit now">
+                &emsp;&emsp;&emsp;
+                <input type="reset" value="Clear form">
+            </div>
+        </form>
+    </body>
+</center>
+
+</html>
